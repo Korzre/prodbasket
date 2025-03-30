@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1000px;
+    height: 80vh;
+}
+
+.content {
+    width: 829px;
+    height: 492px;
+    background-color: #000000;
+    position: absolute;
+    margin-top: -583px;
+    margin-left: 82px;
+
+    color: #00ff00;
+    font-family: "Commodore 64 Angled";
+    font-size: 20pt;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-bottom: 5px dashed #00ff00;
+    border-top: 5px dashed #00ff00;
+    width: 100%;
+    height: 70px;
+}
+
+.container-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-text {
+    margin-top: -25px;
+    font-size: 45pt;
+}
+
+.commands-salvar {
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    margin-top: 13px;
+    border-bottom: 5px solid #00ff00;
+    border-top: 5px solid #00ff00;
+}
+
+.commands-index {
+    display: flex;
+    align-items: center;
+
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    margin-top: 79px;
+    border-bottom: 5px solid #00ff00;
+    border-top: 5px solid #00ff00;
+}
+
+.lag {
+    margin-right: 20px;
+}
+
+form {
+    flex: 1;
+}
+
+.input-search {
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    font-size: 18pt;
+    font-family: "Commodore 64 Angled";
+    color: #00ff00;
+    border: none;
+    background-color: #000000;
+}
+
+.container-form {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+.container-form-title {
+    margin-top: 25px;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-data {
+    width: 620px;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.form-data1 {
+    width: 620px;
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.styled-table {
+    width: 500px;
+    height: 100px;
+
+    margin-left: 80px;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+    font-family: "Commodore 64 Angled";
+    text-transform: lowercase;
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 0px solid #ddd;
+    padding: 3px;
+    text-align: center;
+}
+
+.styled-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    z-index: 1;
+}
+
+.styled-table th {
+    background-color: #000;
+    color: #00ff00;
+}
+
+.styled-table tr {
+    height: 20px;
+}
+
+.form-input1 {
+    width: 300px;
+    height: 40px;
+    padding: 0 8px;
+    font-size: 20pt;
+    margin-left: 84px;
+
+    border: none;
+    color: #00ff00;
+    font-family: "Commodore 64 Angled";
+    border: 5px solid #00ff00;
+
+    background-color: #000;
+}
+
+.form-input2 {
+    width: 300px;
+    height: 40px;
+    padding: 0 8px;
+    font-size: 20pt;
+    margin-left: 209px;
+
+    border: none;
+    color: #00ff00;
+    font-family: "Commodore 64 Angled";
+    border: 5px solid #00ff00;
+
+    background-color: #000;
+}
+
+.form-input3 {
+    width: 300px;
+    height: 40px;
+    padding: 0 8px;
+    font-size: 20pt;
+    margin-left: 167px;
+
+    border: none;
+    color: #00ff00;
+    font-family: "Commodore 64 Angled";
+    border: 5px solid #00ff00;
+
+    background-color: #000;
+}
