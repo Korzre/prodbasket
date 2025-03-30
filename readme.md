@@ -6,7 +6,7 @@ O sistema roda em um servidor Nginx com o PHP.
 
 Para rodar ele só mandando todos os ficheiros para um servidor.
 
-![Menu Produto](./image/menu-prod.png)
+![Apresentação!](./prodbasket.gif)
 
 ## Listar produtos
 
